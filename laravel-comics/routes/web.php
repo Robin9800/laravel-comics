@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return '<h1> Ciao Laravel </h1>';
+    return view('home');
 });

@@ -7,6 +7,6 @@
     <title>Laravel Comics</title>
 </head>
 <body>
-    
+    @include('partials/header') 
 </body>
 </html>
