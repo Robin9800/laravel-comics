@@ -1,5 +1,5 @@
 <footer>
-      <div class="header-footer">
+      <div class="footer-top">
         <ul class="info flex">
           <li>
               <img src="images/buy-comics-digital-comics.png" alt="">
