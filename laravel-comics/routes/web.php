@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    //Usiamo 'config' per collegarci direttamente alla cartella omonima
+    $data = config('comics');
+
+    return view('home', ["comics" => $data ]);
 });
