@@ -26,6 +26,6 @@ Route::get('/detail', function () {
 
     
     $data = config('comics');
-    //Valorizza $data a 0 per visualizare ciò che sta in prima posizione
+    
     return view('detail', ["comic" => $data[0] ]);
 });
