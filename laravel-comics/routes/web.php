@@ -20,3 +20,12 @@ Route::get('/', function () {
 
     return view('home', ["comics" => $data ]);
 });
+
+//Creo una rotta per il dettaglio
+Route::get('/detail', function () {
+
+    
+    $data = config('comics');
+
+    return view('detail', ["comic" => $data[0] ]);
+});
